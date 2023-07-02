@@ -46,7 +46,7 @@ h1 {
 }
 
 
-.anim-1,
+/* .anim-1,
 .anim-2,
 .anim-3,
 .anim-4,
@@ -59,15 +59,15 @@ h1 {
     border:solid 1px #3d6952;
   
    
-}
-
+} */
+/* 
 td {
     border: solid 3px rgba(0, 0, 0, 0.455);
-}
+} */
 
 .container {
-    width: 60%;
-    height: 20px;
+    width: 20px;
+    height: 30px;
     border-radius: 20px;
     border: solid rgba(205, 63, 63, 0.573);
     margin: auto;
@@ -180,7 +180,7 @@ td {
     animation-duration: 3s;
     animation-delay: 3s;
     opacity: 0;
-    top: -10px;
+    top: -5px;
     background-color: blue;
 }
 
@@ -208,7 +208,7 @@ td {
     animation-duration: 3s;
     animation-delay: 5s;
     opacity: 0;
-    top: -20px;
+    top: -10px;
     background-color: green;
 }
 
@@ -247,6 +247,7 @@ td {
     margin: auto;
     position: relative;
     top: 70px;
+    
     animation-name: anim4;
     animation-iteration-count: infinite;
     animation-duration: 2s;
@@ -311,8 +312,8 @@ td {
     border-top: solid 26px rgba(0, 0, 255, 0.086);
     border-radius: 50%;
     position: relative;
-    left: -26px;
-    top: -26px;
+     left: -15px;
+    top: -17px;
     animation-name: animX;
     animation-duration: 1s;
     animation-delay: 1s;
@@ -470,8 +471,8 @@ td {
     background-color: blue;
     border-radius: 50%;
     position: relative;
-    left: 40%;
-    top: 30%;
+    /* left: 40%;
+    top: 30%; */
 }
 .rapaka {
     width: 200px;
@@ -479,11 +480,118 @@ td {
     background-color: rgb(0, 217, 255);
     border-radius: 20px;
     position: relative;
-    left: 30%;
-    top: 40%;
+    /* left: 30%;
+    top: 40%; */
 }
-svg {
+/* svg {
     position: relative;
     left: 40%;
     top: 40%;
+} */
+
+.animate__animated.animate__rotateOut{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:rotateOut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+.animate__animated.animate__headShake{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:headShake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__rubberBand{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:rubberBand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__fadeInLeft{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:fadeInLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__rotateOut{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:rotateOut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__backInUp{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:backInUp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__zoomOut{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:zoomOut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__zoomOutDown{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:zoomOutDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate_animated.animate__heartBeat{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:heartBeat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__flipOutX{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:flipOutX;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__flipInY{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:flipInY;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__flash{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__flip{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation:flip;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
